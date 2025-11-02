@@ -43,7 +43,7 @@ layers:
   - {t: RET, h: Nav}
   - TAB
   Num:
-  - ''
+  - DEL
   - ''
   - ''
   - ''
