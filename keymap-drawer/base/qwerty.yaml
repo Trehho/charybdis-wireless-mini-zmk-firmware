@@ -219,8 +219,6 @@ combos:
   k: R CLK
 - p: [15, 16]
   k: BSPC
-- p: [8, 9]
-  k: LEFT GUI
 - p: [19, 20]
   k: ESC
 - p: [17, 18]
