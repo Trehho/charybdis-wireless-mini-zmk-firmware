@@ -12,7 +12,7 @@ containerized build script that will build all firmwares locally with a single c
 
 ### Flashing the Firmware
 
-Download your choice of firmware from the Releases page. Choose a combination of format (Bluetooth/Dongle) and layout (QWERTY, etc.), then follow the steps below to flash it to your keyboard
+Download your choice of firmware from the Releases page. Choose a combination of format (Bluetooth/Dongle) and layout (QWERTY, etc.), then follow the steps below to flash it to your keyboard.
 
 1. Unzip the firmware zip
 2. Plug the right half into the computer through USB
