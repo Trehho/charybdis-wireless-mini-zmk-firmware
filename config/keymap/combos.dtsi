@@ -22,11 +22,6 @@
             key-positions = <15 16>;
         };
 
-        combo_gui {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <8 9>;
-        };
-
         combo_esc {
             bindings = <&kp ESC>;
             key-positions = <19 20>;
