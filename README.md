@@ -5,7 +5,7 @@
 This repository offers pre-configured ZMK firmware designed for [Wireless Charybdis keyboards](https://github.com/280Zo/charybdis-wireless-mini-3x6-build-guide?tab=readme-ov-file). It supports both Bluetooth/USB and Dongle configurations and uses the latest input listener and processors to act as a bridge between the trackball and the rest of the system.
 
 If you want to customize things the repo is set up to build through GitHub Actions (just clone and run it), or you can use the
-containerized build script that will build all firmwares locally with a single command.
+containerized build script that will build all firmwares locally with a single command
 
 
 ## Quick Start
