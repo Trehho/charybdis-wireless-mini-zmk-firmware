@@ -16,12 +16,12 @@ layers:
   - '`'
   - A
   - S
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
+  - J
+  - K
   - {t: L, h: RCMD}
   - E
   - ''''
