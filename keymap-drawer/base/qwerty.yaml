@@ -1,10 +1,10 @@
 layout: {zmk_keyboard: qwerty}
 layers:
   Base:
-  - '`'
+  - DEL
   - Q
   - W
-  - E
+  - {t: E, h: Scroll}
   - R
   - T
   - Y
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - '-'
   - '~'
+  - '`'
   - A
   - S
   - {t: D, h: LSHFT}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RCMD}
   - E
   - ''''
-  - Scroll
+  - _
   - Z
   - X
   - C
@@ -36,11 +36,11 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: /, h: Num}
+  - /
   - RCTRL
   - LEFT SHIFT
-  - {t: SPACE, h: SUP}
-  - {t: RET, h: Nav}
+  - {t: SPACE, h: Sym}
+  - {t: RET, h: Num}
   - TAB
   Num:
   - DEL
@@ -50,120 +50,78 @@ layers:
   - ''
   - ''
   - +
-  - {t: '7', s: F7}
-  - {t: '8', s: F8}
-  - {t: '9', s: F9}
-  - {t: '%', s: F10}
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - BACK SPACE
-  - LSHIFT
-  - '-'
-  - {t: '4', s: F4}
-  - {t: '5', s: F5}
-  - {t: '6', s: F6}
-  - {t: '*', s: F11}
-  - ''
-  - ''
-  - ''
-  - X
-  - ''
-  - ''
-  - ''
-  - '='
-  - {t: '1', s: F1}
-  - {t: '2', s: F2}
-  - {t: '3', s: F3}
-  - {t: ., s: F12}
-  - {t: /, type: held}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - '0'
-  - SPACE
-  Nav:
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - '&'
-  - ^
-  - '*'
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - +
-  - '{'
-  - '}'
-  - _
-  - '='
-  - '['
-  - ']'
-  - '|'
-  - '~'
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  SUP:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&move_line_up'
-  - '&mc_add_above'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '%'
-  - \
-  - {t: ▽, type: trans}
+  - .
+  - ''
+  - ''
   - LEFT
   - UP
   - DOWN
   - RIGHT
-  - '&delete_line'
-  - '|'
+  - ''
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  Sym:
+  - ''
+  - '~'
+  - $
+  - ^
+  - '&move_line_up'
+  - '&mc_add_above'
+  - '&'
+  - +
+  - '['
+  - ']'
+  - '%'
+  - \
+  - ''
+  - _
   - <
+  - '>'
+  - {t: ▽, type: trans}
+  - '&delete_line'
+  - '`'
+  - '-'
   - (
   - )
-  - ':'
+  - '*'
   - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ~/
+  - ''
+  - '#'
   - '&move_line_down'
   - '&mc_add_below'
-  - \
-  - HOME
+  - '```'
+  - '='
   - '{'
   - '}'
   - '@'
   - /
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -214,28 +172,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
